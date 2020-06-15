@@ -1,0 +1,9 @@
+---
+ssh_pwauth: false
+disable_root: true
+users:
+  - name: phil
+    groups: wheel
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCtSJ+1DjiVNvOS6TAH9IO/jBkXdYcjRBoQnAM3TtznrwCILEx216D8vmuLhK/QxSg1jV1gBmepovKa7W3QuUwPSHAQwhPvdDA4oAYJKQug5uI/IHnz9lST/ICOvdAnTklwUmYnTShg+dSosNCjusahpKLHvZ4eIkshC4eo2Vw2RRUtP9PEF0XX14qBw2hK3SXgtzLAViuHTFb8pFLFzF1V3pKfRFiEOUpZ3fCtLzDEPac46bmtybgFmqZadCX84Rxf9SNl91PLC8BqFo/vjnPZ6/6qn3pY54jsvs4CgGeIRBx8pDeAtZvDel2picd39iZJk2zUD1Lg7oTI4801aylIFhjLnP89POmNXAEgE1SJin5TWgQ9MCiNnHYQ3MhWOpowSB4hlfT9botBptPKDbcBJLu91YM1IVdlUUzh+1hxkBh/k/cd6swR9hvF7J1QIKMV9YY1eO90ksIveKv5cOwTPutwjlatoJr7OD/962v/Caddk+W37yQfCHZO7//E7xVGSFHtnIx/CH7HfOchMLcmno5zLnnvc7YUErE41dvX9IOIDnUBjjQyc6EI6y66mQYXls+xpuluL1+7cv5fDZDeRUTr1WWWwNoikgDPFvWVvpAa+RmTpaXNORPYZYdNMY9zD3tclEO3fVBjwHHs5uTxXk7CqDfOgQN+ObtCdSU2kQ== phil@bove.online"
